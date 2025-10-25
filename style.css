@@ -1,0 +1,54 @@
+/* https://avatars.mds.yandex.net/i?id=e92d5d3078caec7f8eaef17f48b4478a_l-5179194-images-thumbs&n=13 */
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    transition: 0.3s ease;
+    font-weight: 700;
+   font-family: 'Nunito', sans-serif; 
+}
+/* стиль для инпута */
+.todo_input{
+    border:2px solid red;
+    border-radius:6px;
+    height: 40px;
+    width: 300px;
+}
+/* стили для кнопки + ховер анимация */
+.add_button{
+    padding:6px 20px;
+    font-size:18px;
+     
+   color:white;
+   background-color: red;
+   /* border:2px white solid; */
+   border:none;
+
+   border-radius: 6px;
+}
+.add_button:hover{
+    transform: scale(1.3);
+}
+/* стиль для главной див */
+.main_layer{
+    display:flex;
+    background-color: red;
+    height: 100vh;
+}
+/* стиль для приложения */
+.todo_app{
+    padding:30px;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin:40px auto;
+    border-radius:10px;
+}
+/* стиль для таска */
+.task_div{
+    background-color: rgb(242, 206, 25);
+    border: 1px solid gray;
+    width: 400px;
+    padding:13px;
+    border-radius:5px;
+}
