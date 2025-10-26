@@ -35,15 +35,16 @@
 .main_layer{
     display:flex;
     background-color: red;
-    height: 100vh;
+
+    min-height: 100vh;
 }
 /* стиль для приложения */
 .todo_app{
     padding:30px;
     background-color: white;
     width: 500px;
-    height: 400px;
-    margin:60px auto;
+    min-height: 400px;
+    margin:60px auto 250px;
     border-radius:10px;
 }
 /* стиль для таска */
