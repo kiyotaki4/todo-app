@@ -58,6 +58,10 @@
     align-items: center;
     justify-content: space-between;
 }
+.task_div:hover{
+    background-color: red;
+    color:white;
+}
 /* стиль для делит буттона  */
 .delete_button{
     background-color: rgb(162, 0, 255);
